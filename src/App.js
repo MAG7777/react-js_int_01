@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "./logo.svg";
-import "./App.css";
 import Product from "./Product";
 
 const productInfo = {
@@ -11,12 +10,9 @@ const productInfo = {
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Product info={productInfo} />
-      </header>
-    </div>
+    <>
+      <Product info={productInfo} />
+    </>
   );
 }
 
