@@ -1,7 +1,7 @@
 import React from 'react';
-import Price from "./utils/Price";
-import Name from "./utils/Name";
-import Description from "./utils/Description";
+import Price from "./components/Price";
+import Name from "./components/Name";
+import Description from "./components/Description";
 
 export default class Product extends React.Component {
 
